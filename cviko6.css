@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(172, 224, 255);
+}
+
+.hlavnyNadpis{
+    font-family: "Comic Sans MS", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+
+.podnadpis{
+    font-family: "Comic Sans MS", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+html{
+    margin: 100px;
+    padding: 0;
+}
+
+button {
+    margin-left: 20px;
+}
+
+label{
+    color: rgb(22, 21, 18);
+    font-weight: bold;
+    font-family: 'Lobster', cursive, serif;
+    font-size: 18px;
+}
+
+td, th {
+    text-align: center;
+}
+
+th{
+    font-size: larger;
+}
+
+.kontajnerForm{
+    width: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(107, 107, 107, 0.7);
+    padding: 3vw;
+    border-radius: 1vw;
+    border-style: outset;
+    border-width: 7px;
+    border-color: coral;
+}
+
+#result{
+    color: wheat;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+#submitbtn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#kontajnerOutput{
+    text-align: center;
+    font-size: larger;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+    color: rgb(5, 212, 202);
+}
+a:visited {
+    color: rgb(5, 212, 202);
+}
+
+#dokumentacia {
+    display: flex;
+    justify-content: center;
+}
+
+#tabulka {
+    align-self: center;
+    border: 1px solid black;
+}
+
+#tabulka th, td{
+    border: 1px solid black;
+}
+
+#urlLink {
+    margin-left: auto;
+    margin-right: auto;
+}
